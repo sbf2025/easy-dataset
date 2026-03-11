@@ -12,7 +12,7 @@
 
 [简体中文](./README.zh-CN.md) | [English](./README.md)
 
-[功能特点](#功能特点) • [快速开始](#本地运行) • [使用文档](https://rncg5jvpme.feishu.cn/wiki/NT7aw7rBfi8HwukHaUTcvrQIn6f) • [贡献](#贡献) • [许可证](#许可证)
+[功能特点](#功能特点) • [快速开始](#本地运行) • [使用文档](https://rncg5jvpme.feishu.cn/wiki/NT7aw7rBfi8HwukHaUTcvrQIn6f) • [项目愿景](./VISION.md) • [路线图](./ROADMAP.md) • [贡献](#贡献) • [许可证](#许可证)
 
 </div>
 
@@ -262,6 +262,18 @@ easy-dataset/
 
 - 查看本项目的演示视频：[Easy Dataset 演示视频](https://www.bilibili.com/video/BV1y8QpYGE57/)
 - 有关所有功能和 API 的详细文档，请访问我们的[文档站点](https://rncg5jvpme.feishu.cn/wiki/NT7aw7rBfi8HwukHaUTcvrQIn6f)。
+
+## 项目愿景与发展方向
+
+Easy Dataset 正在向**妇幼健康 AI 领域**深度拓展，构建两大核心系统：
+
+- 🏥 **区域妇幼健康整合型服务系统（RIMC）**：纯 Go 文件驱动后端，支持市-区县-乡镇三级机构的医生组管理与患者全生命周期流转（院内 + 跨院转诊）。
+- 👶 **早孕关爱门诊智能体（ECCA）**：基于 RAG + LLM 的早孕期智能问答、风险初筛与随访提醒系统，知识库训练数据由 Easy Dataset 生成。
+
+详情请阅读：
+- [📋 VISION.md — 整合需求与愿景文档](./VISION.md)
+- [🗺️ ROADMAP.md — 项目路线图](./ROADMAP.md)
+- [🏗️ ARCHITECTURE.md — 技术架构设计](./ARCHITECTURE.md)
 
 ## 贡献
 
